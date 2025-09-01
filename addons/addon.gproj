@@ -1,8 +1,0 @@
-GameProject {
- ID "Freya"
- GUID "661C94333B3BC968"
- TITLE "Freya"
- Dependencies {
-  "58D0FB3206B6F859"
- }
-}
