@@ -1,0 +1,31 @@
+GenericEntity : "{E561517B0D8703D6}Prefabs/Props/Remains/SkeletonRemains/SkeletonRemains_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{56AFD7B6068634C3}Assets/Props/Remains/SkeletonRemains/SkeletonRemains_01.xob"
+   Materials {
+    MaterialAssignClass "{66E71AC4EA34CE97}" {
+     SourceMaterial "DefaultGeneratedMaterial"
+     AssignedMaterial "{E3AEBE75A403BDB6}Assets/Props/Remains/SkeletonRemains/Data/Skeleton_Moss.emat"
+    }
+   }
+  }
+  SCR_EditableEntityComponent "{66E71AC512B312EB}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{66E71AC50BEF6554}" {
+    Name "Skeleton Moss"
+    m_Image "{A05B90C2F17004C5}Thumbnails/2025.12.04 03.13.22.960(super).edds"
+    m_aAuthoredLabels {
+     CONTENT_MODDED
+    }
+    m_aAutoLabels {
+     SIZE_S ENTITYTYPE_OBJECT
+    }
+   }
+   m_bAutoRegister ALWAYS
+   m_Flags 769
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+ }
+}

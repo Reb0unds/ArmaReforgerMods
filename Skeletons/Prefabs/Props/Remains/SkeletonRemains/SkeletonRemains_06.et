@@ -1,0 +1,51 @@
+GenericEntity : "{E561517B0D8703D6}Prefabs/Props/Remains/SkeletonRemains/SkeletonRemains_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SignalsManagerComponent "{66E71AC211132A50}" {
+  }
+  SoundComponent "{66E71AC211132A97}" {
+   Filenames {
+    "{A2E6927CD00272B9}Sounds/Props/S2/S2_Body/Props_S2_Body.acp"
+   }
+  }
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{132B129D71A2D843}Assets/Props/Remains/SkeletonRemains/SkeletonRemains_06.xob"
+  }
+  SCR_EditableEntityComponent "{66E71AC25E20E424}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{66E71AC247BC2636}" {
+    Name "Skeleton #4"
+    m_Image "{7FB1F1ED897418F7}Thumbnails/2025.12.04 03.14.07.526(super).edds"
+    m_aAuthoredLabels {
+     CONTENT_MODDED
+    }
+    m_aAutoLabels {
+     SIZE_S ENTITYTYPE_OBJECT
+    }
+   }
+   m_bAutoRegister ALWAYS
+   m_Flags 769
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+ }
+ {
+  ParticleEffectEntity : "{21DF3F9831E89E73}Prefabs/Particles/Insects/Flies.et" {
+   ID "66E71AC211132A4D"
+   components {
+    SCR_EditableEntityComponent "{66E71AC36E0967E5}" {
+     m_UIInfo SCR_EditableEntityUIInfo "{66E71AC3963A1ED9}" {
+      m_aAuthoredLabels {
+       CONTENT_MODDED
+      }
+     }
+     m_bAutoRegister ALWAYS
+     m_Flags 769
+    }
+    RplComponent "{66E71AC2A33ADDAB}" {
+    }
+   }
+   coords -0.055 0.001 0.025
+  }
+ }
+}

@@ -1,0 +1,44 @@
+MatPBRMulti {
+ AOScale 0.5
+ CavityFromAO 0.875
+ GlobalMCRMap "{A63E1DD1D57CD4A0}Textures/BurntTest_BCR.edds"
+ MaskMap "{33521B462DB399CE}Assets/Props/Remains/SkeletonRemains/Data/Skeleton_GLOBAL_MASK.edds"
+ GlobalNMOMap "{29D2AF3AD29EC93F}Assets/Props/Remains/SkeletonRemains/Data/Skeleton_NMO.edds"
+ Color_4 0.536 0.597 0.556 1
+ BCR_4 "{EF0F038286F1C5A2}Assets/_SharedData/Moss/ST_Moss_Green_01_BCR.edds"
+ NMO_4 "{D7D7B8105F86973C}Assets/_SharedData/Moss/ST_Moss_Green_01_NMO.edds"
+ MaskSharpness_4 1.6
+ MaskOffset_4 0.37
+ Mask_4 "{AB46D26F5C81B5A4}Assets/_SharedData/DetailMask/ST_Noise_01_Mask1.edds"
+ UVTransform_4 MatUVTransform "{6566836A425E6A33}" {
+  TilingU 10
+  TilingV 10
+  OffsetU -0.471
+ }
+ Roughness_4 1.2
+ Enabled_3 1
+ Color_3 0.855 0.644 0.509 1
+ BCR_3 "{42FB832888DDAAFB}Assets/_SharedData/Concrete/ST_Concrete_Wall_01_BCR.edds"
+ NMO_3 "{1C5B574FA1CE7490}Assets/_SharedData/Concrete/ST_Concrete_Rough_01_NMO.edds"
+ MaskSharpness_3 1.176
+ MaskOffset_3 0.35
+ Mask_3 "{6BF099C52F07E579}Assets/_SharedData/DetailMask/ST_Rock_Grunge_01_Mask1.edds"
+ UVTransform_3 MatUVTransform "{6558857ABC54C264}" {
+  TilingU 4
+  TilingV 4
+ }
+ DetNormal_3 1.2
+ Roughness_3 1.08
+ AO_3 0.95
+ Color_2 0.205 0.171 0.106 1
+ CombineMode_2 1
+ Color_1 0.638 0.604 0.491 1
+ BCR_1 "{95E5751345993295}Assets/_SharedData/Plaster/ST_Plaster_Bare_01_BCR.edds"
+ NMO_1 "{120DEBB9182433C8}Assets/_SharedData/Plaster/ST_Plaster_Bare_01_NMO.edds"
+ UVTransform_1 MatUVTransform "{655ACA2CCF94FA7A}" {
+  TilingU 4.5
+  TilingV 4.5
+ }
+ DetNormal_1 1.2
+ Roughness_1 1.1
+}

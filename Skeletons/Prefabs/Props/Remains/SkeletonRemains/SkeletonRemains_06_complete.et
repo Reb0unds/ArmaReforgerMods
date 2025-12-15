@@ -1,0 +1,63 @@
+GenericEntity : "{E561517B0D8703D6}Prefabs/Props/Remains/SkeletonRemains/SkeletonRemains_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SignalsManagerComponent "{66E6FB53A91DF847}" {
+  }
+  SoundComponent "{66E6FB53A91DF851}" {
+   Filenames {
+    "{A2E6927CD00272B9}Sounds/Props/S2/S2_Body/Props_S2_Body.acp"
+   }
+  }
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{132B129D71A2D843}Assets/Props/Remains/SkeletonRemains/SkeletonRemains_06.xob"
+  }
+  SCR_EditableEntityComponent "{66E6FB5C27A0B8B7}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{66E6FB5C7D91CBD7}" {
+    Name "Skeleton #1"
+    Description "spooky scary"
+    m_Image "{D5CC9D8290300635}Thumbnails/2025.12.04 03.14.20.122(super).edds"
+    m_aAuthoredLabels {
+     CONTENT_MODDED FACTION_NONE
+    }
+    m_aAutoLabels {
+     ENTITYTYPE_OBJECT SIZE_S
+    }
+   }
+   m_bAutoRegister ALWAYS
+   m_Flags 769
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+ }
+ coords 19.709 1 252.792
+ {
+  ParticleEffectEntity : "{21DF3F9831E89E73}Prefabs/Particles/Insects/Flies.et" {
+   ID "66E6FB53A91DF83E"
+   components {
+    SCR_EditableEntityComponent "{66E71211BCDF2F0C}" {
+     m_UIInfo SCR_EditableEntityUIInfo "{66E71211F09007FB}" {
+     }
+     m_bAutoRegister ALWAYS
+     m_Flags 769
+    }
+   }
+   Flags 0x100 0
+   coords 0.021 -0.002 0.033
+  }
+  GenericEntity : "{7A35F30AABA675E7}Prefabs/Props/Remains/SkeletonRemains/SkeletonRemains_06_clothes.et" {
+   ID "66E6FB53A91DF838"
+   components {
+    SCR_EditableEntityComponent "{66E6FB5F4B505F91}" {
+     m_UIInfo SCR_EditableEntityUIInfo "{66E7121176627699}" {
+     }
+     m_bAutoRegister ALWAYS
+     m_Flags 769
+    }
+    RplComponent "{5624A88DC2D9928D}" {
+     Enabled 1
+    }
+   }
+  }
+ }
+}

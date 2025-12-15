@@ -1,0 +1,31 @@
+GenericEntity : "{E561517B0D8703D6}Prefabs/Props/Remains/SkeletonRemains/SkeletonRemains_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{56AFD7B6068634C3}Assets/Props/Remains/SkeletonRemains/SkeletonRemains_01.xob"
+   Materials {
+    MaterialAssignClass "{6708A7199772869B}" {
+     SourceMaterial "DefaultGeneratedMaterial"
+     AssignedMaterial "{C2F159C7D35CB127}Assets/Props/Remains/SkeletonRemains/Data/Skeleton_Charred.emat"
+    }
+   }
+  }
+  SCR_EditableEntityComponent "{6708A719F03B3298}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{6708A719E5598AA1}" {
+    Name "Skeleton Black"
+    m_Image "{71C989DFCF37239D}Thumbnails/2025.12.04 03.11.43.145(super).edds"
+    m_aAuthoredLabels {
+     ENTITYTYPE_OBJECT CONTENT_MODDED
+    }
+    m_aAutoLabels {
+     SIZE_S
+    }
+   }
+   m_bAutoRegister ALWAYS
+   m_Flags 769
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+ }
+}

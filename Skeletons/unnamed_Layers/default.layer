@@ -1,0 +1,112 @@
+GenericEntity {
+ components {
+  SCR_EditableEntityComponent "{58AAE805AE73E398}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_Image "{22E0F179930BCC61}Assets/Props/Remains/SkeletonRemains/Data/Corpse_Bloat_MCR.edds"
+   }
+  }
+ }
+ coords 22.283 1 249.386
+}
+SCR_ManualCamera ManualCameraPhoto1 : "{127C64F4E93A82BC}Prefabs/Editor/Camera/ManualCameraPhoto.et" {
+ coords 33.498 2.219 243.05
+ angles -39.01 104.196 0.415
+ FOV 45
+ nearPlane 0.1
+}
+$grp GenericEntity : "{31A8E00E47A1AA26}Prefabs/Props/Remains/SkeletonRemains/SkeletonRemains_01_V2.et" {
+ {
+  coords 19.917 1 254.91
+  angles 0 -90.14 0
+ }
+ {
+  coords 30.501 1 236.921
+ }
+}
+GenericEntity : "{4213243821543183}Prefabs/Props/Remains/SkeletonRemains/SkeletonRemains_04_V1.et" {
+ coords 28.515 1 236.991
+}
+$grp GenericEntity : "{5DFCD4EEFB65250C}Prefabs/Props/Remains/SkeletonRemains/E_SkeletonRemains_01_V1.et" {
+ {
+  coords 19.892 1 253.955
+  angles 0 -91.045 0
+ }
+ {
+  coords 31.547 1 236.943
+ }
+}
+$grp GenericEntity : "{8F011B64BDF149DB}Prefabs/Props/Remains/SkeletonRemains/SkeletonRemains_05.et" {
+ {
+  coords 160.214 1 170.663
+ }
+ {
+  coords 12.857 1 250.652
+ }
+ {
+  coords 9.507 1 251.138
+ }
+ {
+  coords 20.103 1 250.57
+  angles 0 -94.708 0
+ }
+ {
+  coords 31.558 1 239.021
+ }
+}
+$grp GenericEntity : "{A31FE8E1B8C62C34}Prefabs/Props/Remains/SkeletonRemains/SkeletonRemains_06_complete.et" {
+ {
+  coords 157.999 1 170.757
+ }
+ {
+  coords 19.709 1 252.792
+  angles 0 -94.708 0
+ }
+ {
+  coords 34.999 1 242.576
+ }
+ {
+  coords 28.539 1 238.961
+ }
+}
+GenericEntity : "{D434ACF74B443D4F}Prefabs/Props/Remains/SkeletonRemains/SkeletonRemains_01_V3.et" {
+ coords 29.502 1 236.936
+}
+$grp GenericEntity : "{E3552F840135C6F5}Prefabs/Props/Remains/SkeletonRemains/SkeletonRemains_06.et" {
+ {
+  coords 156.95 1 170.721
+ }
+ {
+  coords 11.533 1 250.859
+ }
+ {
+  coords 19.815 1 251.489
+  angles 0 -94.708 0
+ }
+ {
+  coords 29.522 1 238.967
+ }
+}
+$grp GenericEntity : "{E3BE5A4782D3DF35}Prefabs/Props/Remains/SkeletonRemains/SkeletonRemains_05_complete.et" {
+ {
+  coords 136.982 1 122.958
+ }
+ {
+  coords 159.125 1 170.751
+ }
+ {
+  coords 10.55 1.171 250.99
+ }
+ {
+  coords 20.29 1 249.193
+  angles 0 -94.708 0
+  {
+   GenericEntity {
+    ID "66E7121567287F77"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 30.542 1 238.968
+ }
+}

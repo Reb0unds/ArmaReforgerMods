@@ -1,0 +1,41 @@
+GenericEntity : "{E561517B0D8703D6}Prefabs/Props/Remains/SkeletonRemains/SkeletonRemains_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{0A6C444CB061D9BB}Assets/Props/Remains/SkeletonRemains/SkeletonRemains_05.xob"
+  }
+  SCR_EditableEntityComponent "{66E71215882ADDC5}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{66E71215BCE412A8}" {
+    Name "Skeleton #2"
+    m_Image "{98F025151ACA4D24}Thumbnails/2025.12.04 03.13.58.335(super).edds"
+    m_aAuthoredLabels {
+     ENTITYTYPE_OBJECT CONTENT_MODDED
+    }
+    m_aAutoLabels {
+     SIZE_S
+    }
+   }
+   m_bAutoRegister ALWAYS
+   m_Flags 769
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+ }
+ {
+  GenericEntity : "{85EFAE5E2B52E5A1}Prefabs/Props/Remains/SkeletonRemains/SkeletonRemains_05_clothes.et" {
+   ID "66E7121567287F77"
+   components {
+    SCR_EditableEntityComponent "{66E71AC02821A135}" {
+     m_UIInfo SCR_EditableEntityUIInfo "{66E71AC052B28565}" {
+     }
+     m_bAutoRegister ALWAYS
+     m_Flags 769
+    }
+    RplComponent "{5624A88DC2D9928D}" {
+     Enabled 1
+    }
+   }
+  }
+ }
+}
